@@ -1,0 +1,27 @@
+[ ]: Verify that the views provided meet the following specifications
+    ## Customer List View ##
+        [x]: Shows the following:
+            [x]: First Name
+            [x]: Last Name
+            [x]: Email
+            [x]: Phone Number
+            [x]: Company
+            [x]: Project
+            [x]: Budget
+        [x]: Views are sorted by customer's full name (ascending) by default
+            - Ember's computed properties are good for dealing with derived values
+            - Computed properties are also very powerful when dealing with aggregate data (an array of records)
+        [x]: User can click a row to edit the item details
+        [x]: Option to sort by customer budget (descending)
+        [x]: Searchbar using client-side filtering to match names, company, and project
+    ## Customer Detail View ##
+        [x]: All fields are required upon submit
+        [x]: Email and budget must be valid formats
+            - Consider using HTML5 attributes and features
+        [x]: Upon clicking save, user is brought back to list view and records reflect the updates
+    ## Dashboard ##
+        [x]: Add a new dashboard menu item with new view, with the following features:
+            [x]: Total count of customers
+            [x]: Total sum of customer budget
+            [x]: List of top 5 prospects (sorted by highest budget descending)
+            [x]: BONUS - Additional information that could be useful for a summary view
